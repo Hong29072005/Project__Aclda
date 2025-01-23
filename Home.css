@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(29, 42, 79);
+    position: sticky;
+    top: 0;
+    filter:drop-shadow(5px 5px 5px rgb(192, 28, 28));
+}
+#logo_Acelida{
+    color: white;
+    margin-left: 10rem;
+}
+#logo{
+   margin-left: 10rem;
+  
+   width: 20rem;
+   height: 20rem;
+  
+   
+}
+.head ul{
+    flex: 0.6;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12rem;
+    color: white;
+   
+}
+.head ul li a{
+   color: white;
+    text-decoration: none;
+}
+.head ul li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.head_nav{
+    background-color: rgb(20, 23, 32);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 6rem;
+    filter:drop-shadow(5px 5px 0px rgb(88, 86, 86));
+   
+}
+
+#t-yellow{
+    color:rgb(204, 161, 6);
+}
+#flag{
+    width: 2rem;
+    height: 2.5vh;
+    border: 1px solid white;
+    
+}
+
+#excheng{
+    color: white;
+    font-size: 10px;
+   
+    margin-left: 15rem;
+    margin-top: 0.5rem;
+}
+.head_nav{
+    background-color: rgb(21, 21, 41);
+}
+.head_nav nav{
+    margin-left: 10rem;
+    
+    
+}
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+   
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+nav ul li a:hover{
+   
+    color:rgb(204, 161, 6);
+}
+nav ul li ul {
+    width: 20rem;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+nav ul li ul li {
+    display: block;
+    background-color: rgb(21, 30, 64);
+}
+nav ul li ul li :hover{
+    text-decoration:underline;
+    background-color: none;
+}
+nav ul li ul li a{
+    font-weight: normal;
+}
+nav ul li ul li{
+    display: none;
+}
+nav ul li:hover ul li{
+    display: block;
+    background-color: none;
+}
+
+
+
+#banner{
+    width: 100%;
+}
+.Home-slider{
+   
+    width: 60%;
+    height: 60vh;
+   
+   margin-left: 20%;
+}
+#carouselExampleIndicators{
+    z-index: -1;
+}
+.foot-banner{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(29, 42, 79);
+    margin-top: -6rem;
+   
+}
+.foot-banner ul li{
+    display: inline-block;
+    color: white;
+}
+.foot-banner ul.icon li {
+    
+    margin-left: 10rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+.text-top{
+    width: 70%;
+    height: 10vh;
+    
+    margin-left: 19rem;
+}
+.foot-banner ul.text li {
+    padding: 10px 15px;
+    margin-top: 1rem;
+}
+#i-one{
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-left: 15rem;
+}
+#i-two{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+#i-three{
+    margin-left: -3.5rem;
+    font-size: 2rem;
+}
+#i-four{
+    font-size: 2rem;
+    margin-left: -3.6rem;
+}
+#i-fix{
+    font-size: 2rem;
+    margin-left: -6rem;
+}
+#i-six{
+    margin-left: -10rem;
+    font-size: 2rem;
+}
+#i-seven{
+    margin-left: -14rem;
+    font-size: 2rem;
+}
+.Home-pic{
+    width: 90%;
+    height: 60vh;
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    
+   
+}
+.pic-left1 img{
+    width: 70%;
+    height: 50vh;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 10rem;
+}
+.pic-left img{
+    width: 70%;
+    height: 50vh;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 15rem;
+}
+.pic-right img{
+    width: 70%;
+    height: 50vh;
+    margin-right: 15rem;
+    border: none;
+    border-radius: 1rem;
+}
+.pic-right1 img{
+    width: 80%;
+    height: 50vh;
+    margin-right: 5rem;
+    border: none;
+    border-radius: 1rem;
+}
+#text-pic3{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+#text-pic4{
+    text-align: center;
+    margin-left: -5rem;
+    color: blue;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+#text-pic1{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-left: 17.5rem;
+}
+#text-pic2{
+    text-align: center;
+    margin-left: -10rem;
+    color: blue;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.Home-pic2{
+    width: 90%;
+    height: 60vh;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+   
+}
+.Home-pic3{
+    width: 90%;
+    height: 60vh;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+   
+}
+.Home-pic4{
+    width: 90%;
+    height: 60vh;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+   
+}
+.Home-pic5{
+    width: 90%;
+    height: 60vh;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+   
+}
+.Home-pic6{
+    width: 90%;
+    height: 60vh;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+   
+}
+.Home-pic7{
+    width: 90%;
+    height: 60vh;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+   
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+   
+    margin-top: 220rem;
+   display: flex;
+   justify-content: space-between;
+}
+.box1{
+    width: 24.5%;
+    height: 40vh;
+    background-color: rgb(214, 205, 205);
+    margin-top: 2rem;
+}
+#logo-footer{
+    width: 40%;
+    height: 6vh;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+#p-tage1{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-tage2{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-tage3{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-tage4{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(29, 42, 79);
+    margin-top: 2rem;
+}
+.f-text1 ul{
+    flex: 0;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 400px;
+}
+.f-text1 ul li {
+    color: white;
+    list-style: none;
+  
+}
+.f-text2 ul{
+    flex: 0;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 650px;
+}
+.f-text2 ul li {
+    color: white;
+    list-style: none;
+  
+}
+#h5{
+    margin-left: 42%;
+    color: white;
+}
+.f-pic{
+    width: 40%;
+    height: 15vh; 
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.p-box1{
+    width: 30%;
+    height: 15vh;
+    background-color: blue;
+    border: none;
+    border-radius: 1rem;
+}
+.p-box2{
+    width: 30%;
+    height: 15vh;
+    background-color: blue;
+    border: none;
+    border-radius: 1rem;
+}
+.p-box3{
+    width: 30%;
+    height: 15vh;
+    background-color: blue;
+    border: none;
+    border-radius: 1rem;
+}
+.p-box1 img{
+    width: 100%;
+    height: 15vh;
+    border: none;
+    border-radius: 1rem
+}
+.p-box2 img{
+    width: 100%;
+    height: 15vh;
+    border: none;
+    border-radius: 1rem
+}
+.p-box3 img{
+    width: 100%;
+    height: 15vh;
+    border: none;
+    border-radius: 1rem
+}
+#h4{
+    margin-left: 46%;
+    color: white;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+.f-social{
+    width: 11%;
+    height: 4vh;
+   
+    margin-left: 44.5%;
+   
+}
+.f-social ul {
+    display: flex;
+    justify-content: space-between;
+}
+   
+.f-social ul li{
+    list-style: none;
+}
+#s1{
+    width: 2rem;
+    height: 4vh;
+}
+#icon{
+    margin-top: 3rem;
+    margin-left: -15rem;
+    font-size: 2rem;
+}
+#icon:hover{
+    font-size: 2.1rem;
+}
+#icon {
+    text-decoration: none;
+    color: white;
+}
+#icon1{
+    margin-top: 3rem;
+    margin-left: -13rem;
+    font-size: 2rem;
+}
+#icon1:hover{
+    font-size: 2.1rem;
+}
+
+/* Responsive */
+@media only screen and (max_width: 600px){
+    
+}
